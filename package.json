@@ -1,0 +1,29 @@
+{
+  "name": "qa-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "fawad.software.engineer@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.4",
+    "@cypress/watch-preprocessor": "^1.0.1",
+    "cypress": "^10.11.0",
+    "cypress-xpath": "^2.0.1",
+    "vite": "^4.4.9",
+    "vue": "^3.3.4"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.1",
+    "cypress-drag-drop": "^1.1.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-real-events": "^1.8.1",
+    "dotenv": "^16.0.2"
+  }
+}
